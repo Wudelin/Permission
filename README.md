@@ -2,7 +2,6 @@
 利用Fragment封装权限请求
 
 
-Libcore
 ============
 
 How to use?
