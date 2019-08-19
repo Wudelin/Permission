@@ -7,7 +7,8 @@ Libcore
 
 How to use?
 --------
-PermissionUtil.init(this).requestPermission(permissonList, new PermissionUtil.IPermissionCallback()
+
+	PermissionUtil.init(this).requestPermission(permissonList, new PermissionUtil.IPermissionCallback()
         {
             @Override
             public void succeed(List<String> permissions)
@@ -48,14 +49,14 @@ Download
 --------
 
 ```allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
   
 dependencies {
-	        implementation 'com.github.Wudelin:Permission:1.0.0'
+	implementation 'com.github.Wudelin:Permission:1.0.0'
 }
 ```
 
